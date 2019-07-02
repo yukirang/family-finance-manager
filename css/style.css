@@ -1,0 +1,141 @@
+
+body{
+	background-color:white;
+	font-family:"宋体";
+	font-size:12px;
+	line-height:150%;
+}
+input{
+	
+	font-family:"宋体";
+	font-size:12px;
+	line-height:150%;
+}
+textarea {
+	
+	font-family:"宋体";
+	font-size:12px;
+	line-height:150%;
+}
+select {
+	
+	font-family:"宋体";
+	font-size:12px;
+	line-height:150%;
+}
+
+.mar001 { margin-top:100px;}
+.mar002 { margin-top:30px; margin-right:20px;}
+.mar003 { margin-top:15px; margin-right:20px;}
+.mar004 { margin-top:5px;}
+.mar005 { margin-top:20px;}
+.mar006{ margin-bottom:10px; margin-left:20px;}
+.mar007{ margin-left:40px;}
+.mar008{ margin-left:25px;}
+.mar009{ margin-top:8px;}
+
+
+.bg01{ background-repeat:no-repeat;}
+.bg02{ background-repeat:repeat-y; background-position:center;}
+.bg03{ background-repeat:repeat-x; background-image:url(../images/index_05.gif);}
+.bg04{ background-color:#e7e7e7;}
+
+
+
+.text001{ font-size:14px; color:#FFFFFF; font-weight:bold;}
+.text002{ font-size:14px}
+.text003{ font-size:14px; color:#62b8d1; font-weight:bold;}
+.text004{ font-size:14px; color:#FFFFFF;}
+.text005{ font-size:14px; color:#000000; font-weight:bold;}
+.text006{ font-size:16px; color:#12586c; font-weight:bold;}
+.text007{ color:#ffffff; font-weight:bold;}
+.text008{ font-size:13px;}
+.text009{ font-size:14px; color:#e21919; font-weight:bold;}
+.text010{ font-size:14px; font-weight:bold; color:#116e86;}
+.text011{ font-size:14px; font-weight:bold; color:#6e4242;}
+.text012{ font-size:30px; font-weight:bold; line-height:40px; }
+
+
+
+.inp001{ width:165px; height:18px; border:1px solid #000000; margin-left:10px;}
+.inp002{ width:400px; height:150px; border:1px solid #000000; margin-left:10px; margin-top:8px; margin-bottom:15px;}
+.inp003{ width:80px; height:18px; border:1px solid #000000; margin-left:10px;}
+.inp004{ width:110px; height:18px; color:#666666;}
+.inp005{ width:110px; height:18px; color:#666666;margin-left:10px;}
+
+
+.bor001{ border-top:1px solid #4aa5bb;}
+.bor002{ border-bottom:1px solid #4aa5bb;}
+.bor003{ border-top:1px solid #000000;}
+.bor004{ border-top:1px solid #000000;border-bottom:1px solid #000000;}
+
+
+a.tex001:link{ font-size:14px; color:#000000; font-weight:bold; text-decoration:none;}
+a.tex001:visited{ font-size:14px; color:#000000; font-weight:bold;text-decoration:none;}
+a.tex001:hover{ font-size:14px; color:#B40117; font-weight:bold;text-decoration:none;}
+a.tex002:link{ font-size:14px; color:#ffffff; font-weight:bold; text-decoration:none;}
+a.tex002:visited{ font-size:14px; color:#ffffff; font-weight:bold;text-decoration:none;}
+a.tex002:hover{ font-size:14px; color:pink; font-weight:bold;text-decoration:none;}
+a.tex04:link{color:#484848;text-decoration: none;}
+a.tex04:visited{color:#484848;text-decoration: none;}
+a.tex04:active{color: #484848;text-decoration: none;}
+a.tex04:hover{color:#484848;text-decoration: none ; }
+
+.btn{
+	color:#FFFFFF;
+	background-color:#0099CC;
+    position: relative;
+    font-family: Arial, sans-serif;
+ 	font-size:16px;
+    border-radius: 10px;
+    /*通过边框阴影实现立体按钮效果，inset是内阴影效果*/
+    box-shadow: inset 0 5px 20px -5px bold hsla(0,0%,100%,.7),
+                0 2px 2px 2px bold hsla(0,0%,0%,.3);
+    background-position: center;
+    /*初始缩放0.66倍*/
+    transform: scale(.88);
+    /*在失去焦点时根据自定义的贝塞尔时间曲线做动画变换效果*/
+    transition: transform .05s cubic-bezier(.32,0,.15,1); 
+}
+.btn:hover {
+    box-shadow: 1px 1px 1px rgba(0,0,0,.29), inset 0px 0px 2px rgba(0,0,0, .5);
+	  cursor: none;
+    /*悬停时恢复原始大小*/
+    transform: scale(1);
+    /*鼠标悬停时根据自定义的贝塞尔时间曲线做动画变换效果*/
+    transition: transform .2s cubic-bezier(.32,0,.15,1); 
+}
+.btn:active {
+    -webkit-box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+    -moz-box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+    box-shadow: inset 0px 0px 3px rgba(0,0,0, .8);
+}
+
+.inp0{
+    font-family: Arial, sans-serif;
+	background-color:#CCFFFF;
+    border-radius: 5px;
+	border-color:#000066;
+	stickyPlaceholder : true;
+}
+.hide0:{
+width:100px;
+height:100px;
+background:yellow;
+transition:width 2s, height 2s;
+}
+.hide0:hover{
+width:500px;
+height:200px;
+}
+.select_style { overflow:hidden; 
+
+-moz-border-radius: 5px; /* Gecko browsers */
+-webkit-border-radius: 5px; /* Webkit browsers */
+border-radius:5px;
+background-color:#CCFFFF;
+border-color:#000066;
+}
+.select_style select { padding:5px; width:268px;  font-size: 16px; border:none; height:30px;
+-webkit-appearance: none; }
+

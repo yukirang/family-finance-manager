@@ -1,0 +1,103 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>报表统计</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="js/common.js"></script>
+<style type="text/css">
+<!--
+.STYLE4 {color: #F0F0F0}
+-->
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" onLoad="MM_preloadImages('images/index_12_1.gif','images/index_12_2.gif')">
+<script language="JavaScript" type="text/JavaScript" src="js/findmoney.js"></script>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="32" align="left" valign="top" class="text006"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top">
+          <td>【 报表统计 】</td>
+          <td align="right"><img src="images/icon01.gif" width="35" height="21" align="absmiddle"><span class="text010">报表类型
+              <select name="select2" class="inp004" onChange="MM_jumpMenu('self',this,0)">
+                <option  value="bbtj.htm">收支汇总报表</option>
+                <option value="bbtj_0.htm" selected>年度收支统计表</option>
+              </select>
+          </span>		  </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="215" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr align="left" class="bg03">
+        <td width="100%" height="29"><span class="text001">&nbsp;&nbsp;<span class="STYLE4">年度收支统计表</span></span></td>
+      </tr>
+    </table>
+      <table width="100%"  border="0" cellpadding="0" cellspacing="0" class="bor002">
+        <tr>
+          <td width="10%" height="64" align="right" class="text011">统计年份</td>
+          <td width="22%" align="left"><span class="text010">
+            <select name="select" class="select_style" id="gettime">
+              <option selected>--选择时间--</option>
+              <option >2007</option>
+              <option >2008</option>
+              <option >2009</option>
+              <option >2010</option>
+              <option >2011</option>
+              <option >2012</option>
+              <option >2013</option>
+              <option >2014</option>
+              <option >2015</option>
+              <option >2016</option>
+              <option >2017</option>
+            </select>
+          </span></td>
+          <td width="68%"><input name="submit2" type="submit" class="btn"onClick="validate()" value="确认"/>            &nbsp;&nbsp;<input name="submit" type="submit" onClick="update()" class="btn" value="刷新"/></td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bor003">
+        <tr>
+          <td height="40" align="left" valign="top" >
+		  
+		  
+		  
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr align="center">
+  <td height="40" colspan="3" class="text012">
+  年度收支统计表</td>
+  </tr>
+  <tr>
+    <td width="59%" align="left">注释：G:工资 S:生活用品 Y:医疗 J:交通 F:饮食 R:收入 C：支出</td>
+    <td width="13%">&nbsp;</td>
+    <td width="28%" align="right"></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr align="center">
+    <td width="27%" height="35" class="bor004"><strong >具体月份</strong></td>
+	 <td width="31%" class="bor004"><strong >具体收支项目</strong></td>
+    <td width="30%" class="bor004"><strong >收入/支出</strong></td>
+    <td width="12%" class="bor004"><strong >金额</strong></td>
+	
+  </tr>
+  
+  <tr>
+    <td height="25" align="left" id="type" ></td>
+    
+ 
+</table>
+		  </td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+
+
+
+</body>
+
+
+</html>

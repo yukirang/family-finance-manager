@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="GB2312"?>
+<Finances>
+
+
+<Finance><id>3</id><financetype>R</financetype><type>G</type><spendingtime>2012/09/20</spendingtime><num>5130</num><userid>hanzihe</userid></Finance>
+<Finance><id>5</id><financetype>R</financetype><type>F</type><spendingtime>2013/11/01</spendingtime><num>4000</num><userid>hanzihe</userid></Finance>
+
+
+<Finance><id>6</id><financetype>R</financetype><type>G</type><spendingtime>2013/01/02</spendingtime><num>3000</num><userid>rangke</userid></Finance><Finance><id>7</id><financetype>R</financetype><type>Y</type><spendingtime>2013/05/02</spendingtime><num>2000</num><userid>rangke</userid></Finance><Finance><id>9</id><financetype>R</financetype><type>G</type><spendingtime>2015/09/09</spendingtime><num>7899</num><userid>hanzihe</userid></Finance></Finances>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="GB2312"?>
+<Finances>
+  <Finance>
+    <id>1</id>
+    <financetype>支出</financetype>
+    <type>生活费</type>
+    <spendingtime>2008/10/10</spendingtime>
+    <num>100</num>
+    <userid>1</userid>
+    <remark>车辆维修</remark>
+  </Finance>
+  <Finance>
+    <id>2</id>
+    <financetype>收入</financetype>
+    <type>工资</type>
+    <spendingtime>2008/9/8</spendingtime>
+    <num>4000</num>
+    <userid>1</userid>
+    <remark>年终奖金</remark>
+  </Finance>
+  <Finance>
+    <id>3</id>
+    <financetype>支出</financetype>
+    <type>医疗</type>
+    <spendingtime>2009/1/10</spendingtime>
+    <num>200</num>
+    <userid>2</userid>
+    <remark>住院</remark>
+  </Finance>
+  <Finance>
+    <id>4</id>
+    <financetype>收入</financetype>
+    <type>交通</type>
+    <spendingtime>2009/3/8</spendingtime>
+    <num>50</num>
+    <userid>3</userid>
+    <remark>公交卡充值</remark>
+  </Finance>
+</Finances>

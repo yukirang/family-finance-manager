@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>查询功能</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript" src="js/data.js"></script>
+<style type="text/css">
+<!--
+.STYLE1 {color: #8080FF}
+-->
+</style>
+</head>
+
+<body leftmargin="0" topmargin="0" onLoad="MM_preloadImages('images/index_12_1.gif','images/index_12_2.gif')">
+<script language="JavaScript" type="text/JavaScript" src="js/data.js"></script>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="32" align="left" valign="top" class="text006"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr valign="top">
+          <td>【 查询功能 】</td>
+          <td align="right"><img src="images/icon01.gif" width="35" height="21" align="absmiddle"><span class="text010">查询方法
+              <select name="select2" class="inp004" onChange="MM_jumpMenu('self',this,0)"> 
+			  <option selected value="cxgn_id.htm">收支成员ID</option>
+               <option value="cxgn_type.htm">收支种类</option>
+              </select>
+          </span>		  </td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td height="148" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr align="left" class="bg03">
+        <td width="100%" height="29"><span class="text001">&nbsp;&nbsp;查询收支记录</span></td>
+      </tr>
+    </table>
+      <table width="98%"  border="0" cellpadding="0" cellspacing="0" class="bor002">
+        <tr> </tr>
+      </table>
+      <table width="100%" border="0" cellpadding="0" cellspacing="0" class="bor003">
+        <tr align="center">
+          <td width="15%" height="35" align="left" class="text009 STYLE1 STYLE1">查询收支成员ID</td>
+          <td width="85%">&nbsp;</td>
+        </tr>
+        <tr align="center">
+          <td height="35" align="left">成员ID</td>
+          <td align="left"><input name="textfield" type="text" class="select_style" id="textid"></td>
+        </tr>
+      </table>
+	   <table width="99%" border="0" cellpadding="0" cellspacing="0" class="bor001">
+        <tr>
+          <td width="100%" height="25" align="right" ><input name="submit" type="submit" class="btn" onClick="valid()" value="确认"/>
+          <input name="submit" type="submit" class="btn" onClick="update()" value="刷新"/><input name="submit" type="submit" class="btn" onClick="rem()" value="删除"/>
+          <td width="1%" align="right">&nbsp;  </td>
+        </tr>
+      </table>
+	  注释：G:工资 S:生活用品 Y:医疗 J:交通 F:饮食
+  R：收入 C：支出 
+</table>
+  <strong>
+  </tr>
+  <span class="STYLE1">查询结果：      </span></strong>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+      <tr align="center" class="bg03">
+         
+        <td height="33" class="text007">编号 </td>
+		<td class="text007">收入/支出</td>
+		<td class="text007">收入种类</td>
+        <td class="text007">收支日期</td>
+        <td class="text007">收支金额</td>
+        <td class="text007">收支成员ID</td>
+        </tr>
+
+</table>
+
+
+</body>
+</html>
