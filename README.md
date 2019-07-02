@@ -11,4 +11,3 @@ It provides stuffs like:
 * Seaching for a record / records
 * Removing a record / records
 
-May rewrite with nodejs.
